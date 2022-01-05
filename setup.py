@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='Datashredder',
+    name='jsonreg',
     url='https://github.com/awesomelewis2007/jsonreg/',
     author='Lewis Evans',
     packages=['jsonreg'],
