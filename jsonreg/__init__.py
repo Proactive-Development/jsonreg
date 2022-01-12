@@ -55,4 +55,3 @@ class find:
                 if data["id"] == id:
                     keys.append(i)
         return keys
-create("test.json","Test","This is test data")
