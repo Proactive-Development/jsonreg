@@ -26,6 +26,8 @@ def create(location,name,regdata):
     data["id"] = random.randint(100000000000,999999999999)
     data["data_created"] = now.strftime("%Y-%m-%d %H:%M:%S")
     data["last_modified"] = now.strftime("%Y-%m-%d %H:%M:%S")
+    with open(location, 'w') as outfile:
+        json.dump(data, outfile)
     return data["id"]
 class findfrom:
     def name(location,name):
