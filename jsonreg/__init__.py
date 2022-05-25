@@ -81,37 +81,31 @@ class findfrom:
 class get:
     def name(location):
         import json
-        import os
         with open(location) as f:
             data = json.load(f)
         return data["name"]
     def id(location):
         import json
-        import os
         with open(location) as f:
             data = json.load(f)
         return data["id"]
     def date_created(location):
         import json
-        import os
         with open(location) as f:
             data = json.load(f)
         return data["date_created"]
     def data(location):
         import json
-        import os
         with open(location) as f:
             data = json.load(f)
         return data["data"]
     def created(location):
         import json
-        import os
         with open(location) as f:
             data = json.load(f)
         return data["data_created"]
     def modified(location):
         import json
-        import os
         with open(location) as f:
             data = json.load(f)
         return data["last_modified"]
