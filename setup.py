@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name='jsonreg',
     url='https://github.com/awesomelewis2007/jsonreg/',
-    author='Lewis Evans',
+    author='Proactive-Development',
     packages=['jsonreg'],
     install_requires=[''],
     version="0.1.5",
